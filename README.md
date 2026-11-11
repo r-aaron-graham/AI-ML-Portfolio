@@ -2,6 +2,30 @@
 
 Selected work in AI systems engineering, local AI applications, and compute infrastructure.
 
+## Start here
+
+Run the Adaptive RAG benchmark with Python 3.11 or later. It uses a synthetic dataset and the Python standard library.
+
+```bash
+git clone https://github.com/r-aaron-graham/adaptive-rag-efficiency-lab.git
+cd adaptive-rag-efficiency-lab
+python -m unittest -q
+python benchmark.py
+```
+
+The report compares exact citations, abstention, context size, and retrieval latency. In the bundled dataset, the original shortcut scored 9/10 on exact citations. The guarded shortcut and fixed baseline scored 10/10. [Benchmark data and results](https://github.com/r-aaron-graham/adaptive-rag-efficiency-lab#guarded-shortcut-experiment)
+
+## Skills demonstrated
+
+| Skill | Evidence you can inspect |
+| --- | --- |
+| Python APIs and model routing | [FastAPI gateway and HTTP smoke test](https://github.com/r-aaron-graham/llm-gateway-and-model-router/pull/1) · [Cost and latency selection](https://github.com/r-aaron-graham/cost-aware-model-serving/pull/1) |
+| Retrieval evaluation and agent governance | [Policy, trace, and review demo](https://github.com/r-aaron-graham/agent-trust-control-plane/pull/2) · [Evaluation CI and synthetic benchmark](https://github.com/r-aaron-graham/agent-trust-control-plan-evals/pull/2) · [Lexical evaluation baseline](https://github.com/r-aaron-graham/hallucination-detection-lab/pull/1) |
+| Data quality and reproducible fixtures | [Contract validation and drift](https://github.com/r-aaron-graham/data-contracts-and-quality-engine/pull/1) · [CSV generation and dataset metadata](https://github.com/r-aaron-graham/synthetic-data-generator-with-governance/pull/1) |
+| Compute infrastructure modeling | [Site scoring](https://github.com/r-aaron-graham/data-center-site-selection-engine/pull/1) · [Power price scheduling](https://github.com/r-aaron-graham/power-and-load-optimizer/pull/1) · [Capacity simulation](https://github.com/r-aaron-graham/modular-data-center-digital-twin/pull/1) · [Carbon-aware routing simulation](https://github.com/r-aaron-graham/carbon-aware-workload-orchestrator/pull/1) |
+
+## Project demos
+
 | Project | What to try | Evidence |
 | --- | --- | --- |
 | Agent Trust Control Plane | Run the offline demo to see a cited answer, a policy denial, and an escalation for review. | [Quickstart](https://github.com/r-aaron-graham/agent-trust-control-plane/blob/main/README.md#run-the-five-minute-reviewer-demo) · [Evaluation harness](https://github.com/r-aaron-graham/agent-trust-control-plan-evals#run-benchmarks) |
