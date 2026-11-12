@@ -2,6 +2,12 @@
 
 Selected work in AI systems engineering, local AI applications, and compute infrastructure.
 
+## Try a project
+
+- **In your browser:** Ask “active listening” for a cited activity, then “weather forecast” to see the demo abstain. [AMIE live demo](https://r-aaron-graham.github.io/Amie-Chatbot-Frontend/)
+- **In your terminal:** Run the retrieval benchmark below to compare citation accuracy and context size on a synthetic dataset.
+- **For agent governance:** Run an offline demo with a cited answer, a policy denial, and an escalation. [Agent Trust Control Plane quickstart](https://github.com/r-aaron-graham/agent-trust-control-plane#run-the-five-minute-reviewer-demo)
+
 ## Start here
 
 Run the Adaptive RAG benchmark with Python 3.11 or later. It uses a synthetic dataset and the Python standard library.
@@ -36,3 +42,7 @@ The report compares exact citations, abstention, context size, and retrieval lat
 | RadCopilot Local | Run a synthetic smoke test that serves the UI and exercises the Ollama adapter with a fixture model. | [Reviewer demo](https://github.com/r-aaron-graham/RAD_copilot_test_2.1#reviewer-demo) · [Model code index](https://github.com/r-aaron-graham/RadCopilot-LLM-Models) |
 | Mine-water cooling simulation | Compare FIFO and cooling-aware compute scheduling over five synthetic hours. The results are modeled. | [Scheduler and assumptions](https://github.com/r-aaron-graham/geothermal-mine-water-cooling-sim#compute-scheduling-experiment--v010-local-build) · [Raw scenario results](https://github.com/r-aaron-graham/geothermal-mine-water-cooling-sim/blob/main/scheduler-results-v1.json) |
 | AMIE | Try “active listening” for a cited classroom activity or “weather forecast” to see the browser demo abstain. The demo uses fictional cards and runs separately from the Python experiments. | [Live demo](https://r-aaron-graham.github.io/Amie-Chatbot-Frontend/) · [Frontend source](https://github.com/r-aaron-graham/Amie-Chatbot-Frontend) · [Python backend experiments](https://github.com/r-aaron-graham/AmieAIBackend) |
+
+## Follow the work
+
+[Follow Robert Aaron Graham on GitHub](https://github.com/r-aaron-graham) for new AI engineering projects. Use the linked repository’s Issues tab to report a reproducible problem or suggest a synthetic example.
